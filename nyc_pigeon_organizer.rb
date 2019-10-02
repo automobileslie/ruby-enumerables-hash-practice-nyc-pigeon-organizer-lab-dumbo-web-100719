@@ -22,7 +22,7 @@ if !pigeon_data_by_name[names][key] = [
 end 
 
 if pigeon_data_by_name[names][key]
- pigeon_data[:color] = []
+ pigeon_data[names][:color] = []
   
 
   
