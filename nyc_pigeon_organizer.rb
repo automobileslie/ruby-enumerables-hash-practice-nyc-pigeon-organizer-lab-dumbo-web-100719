@@ -15,6 +15,8 @@ if !pigeon_data_by_name[names]
   pigeon_data_by_name[names] = {}
 end
 if names == "Theo"
+   binding.pry
+end
 if !pigeon_data_by_name[names][key]
   pigeon_data_by_name[names][key]=[]
 end
