@@ -18,7 +18,7 @@ end
 
 if !pigeon_data_by_name[names][key]
   pigeon_data_by_name[names]=[]
-    another_key.to_s]
+    
 
 end 
 
