@@ -15,8 +15,8 @@ if !pigeon_data_by_name[names]
   pigeon_data_by_name[names] = {}
 end
 
-if pigeon_data_by_name[names][key]
-  pigeon_data_by_name[names]=[]
+if !pigeon_data_by_name[names][key]
+  pigeon_data_by_name[names][key]=[]
 end
 
 pigeon_data_by_name[names][key] << another_key.to_s
