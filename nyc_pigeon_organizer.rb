@@ -22,11 +22,6 @@ end
 #if pigeon_data_by_name[names][key]
  #pigeon_data_by_name[names][:color] = []
   
-
-  
- 
-
-end
 end
  binding.pry
 pigeon_data_by_name 
