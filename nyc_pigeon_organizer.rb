@@ -19,10 +19,11 @@ if !pigeon_data_by_name[names][key]
   pigeon_data_by_name[names]=[]
 end
 
- 
+pigeon_data_by_name[names][key] << another_key.to_s
 end
 end
 end
+
  binding.pry
 pigeon_data_by_name 
 
